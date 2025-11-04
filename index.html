@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="to-do-wrapper">
+      <div class="container">
+        <h1>To-Do List</h1>
+        <div class="taskWrapper">
+          <input type="text" id="taskInp" placeholder="Enter Task..." />
+          <span class="addBtn" onclick="taskAdd()">Add</span>
+        </div>
+        <p id="error-msg" onclick="taskAdd()"></p>
+      </div>
+      <h2>Task List</h2>
+      <ul id="listWrapper"></ul>
+
+      <div class="counter-container">
+      <div class="task-counter">
+        Completed: <span id="completed-counter">0</span> | Uncompleted:
+        <span id="uncompleted-counter">0</span>
+      </div>
+    </div>
+    </div>
+
+    
+
+    <script src="script.js"></script>
+  </body>
+</html>
