@@ -26,6 +26,7 @@
     color: #10ff00;
     margin: 10px;
     position: relative;
+    
 }
 
 .to-do-wrapper h2::after{
@@ -34,7 +35,7 @@
     background-color: #10ff00;
     width: 100px;
     height: 1px;
-    bottom: -3px;
+    bottom: -5px;
     left: 0;
     right: 0;
     margin: auto;
@@ -46,7 +47,7 @@
     background-color: #fff;
     width: 15px;
     height: 10px;
-    bottom: -7px;
+    bottom: -9px;
     left: 0;
     right: 0;
     margin: auto;
