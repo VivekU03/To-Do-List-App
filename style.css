@@ -73,12 +73,21 @@
 
 #listWrapper li label span{
     font-size: 18px;
-    margin-left: 4px;
+    margin-left: 6px;
+    /* word-break: break-word; */
+    overflow-wrap: anywhere;
+    white-space: normal;
+    text-align: left;
 }
 
 #listWrapper li label input[type="checkbox"]{
     width: 15px;
     height: 15px;
+}
+
+#listWrapper li label{
+    display: flex;
+    flex: 1;
 }
 
 
